@@ -53,6 +53,7 @@ npm run test:report   # open the HTML report of the last run
 | `npm run test:report` | Open the last HTML report         |
 
 ## Project structure
+```
 bugbasket_autotests/
 ├── .github/              # GitHub Actions CI/CD workflows
 ├── pages/                # Page Object Model (POM) classes
@@ -72,3 +73,4 @@ bugbasket_autotests/
 ├── playwright.config.ts  # Playwright test configuration
 ├── package.json          # Project metadata, dependencies, and scripts
 └── README.md             # Project documentation
+```
