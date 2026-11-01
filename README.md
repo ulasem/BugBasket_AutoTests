@@ -17,7 +17,7 @@ git --version
 
 ```bash
 # 1. Clone the repository and go into the folder
-git clone
+git clone https://github.com/ulasem/BugBasket_AutoTests.git
 cd bugbasket_autotests
 
 # 2. Install project dependencies
