@@ -53,3 +53,22 @@ npm run test:report   # open the HTML report of the last run
 | `npm run test:report` | Open the last HTML report         |
 
 ## Project structure
+bugbasket_autotests/
+├── .github/              # GitHub Actions CI/CD workflows
+├── pages/                # Page Object Model (POM) classes
+│   ├── CartPage.ts       # Cart interactions and locators
+│   ├── LoginPage.ts      # Login page interactions and locators
+│   ├── ProductsPage.ts   # Product catalog interactions and locators
+│   └── RegisterPage.ts   # Registration page interactions and locators
+├── tests/                # Test specifications
+│   ├── auth/             # Authentication test suites (login, register)
+│   │   ├── login.spec.ts
+│   │   └── register.spec.ts
+│   ├── cart/             # Shopping cart tests
+│   │   └── cart.spec.ts
+│   └── products/         # Product catalog and search test suites
+│       ├── search.spec.ts
+│       └── catalog.spec.ts
+├── playwright.config.ts  # Playwright test configuration
+├── package.json          # Project metadata, dependencies, and scripts
+└── README.md             # Project documentation
